@@ -1,0 +1,33 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "reactproject",
+  "keywords": [
+    "react-3"
+  ],
+  "homepage": "https://github.com/Prasadnimmale/React--3#readme",
+  "bugs": {
+    "url": "https://github.com/Prasadnimmale/React--3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prasadnimmale/React--3.git"
+  },
+  "license": "ISC",
+  "author": "prasadchinna",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
